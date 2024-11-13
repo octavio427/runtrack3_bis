@@ -1,0 +1,96 @@
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #f7f9fb;
+    /* padding: 25px 20px; */
+    padding-top: 15px;
+    padding-bottom: 25px;
+    color: #000606;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header img {
+    height: 50px;
+    margin-right:10x;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* menu nav */
+.navbar {
+    
+    overflow: hidden;
+    padding: 5px 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    top : 0px;
+    width: 100%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Optionnel : ajout d'une ombre */
+   
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #000606;
+    text-align: center;
+    padding: 3px 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border-radius: 9px;
+    margin: 0px 5px 0px 5px;
+    
+}
+.navbar a:hover {/*change color qd sourir sur le btn de navbar*/
+    color: rgb(255, 7, 7);
+    color: rgb(0, 0, 0);
+    
+}
+
+/* bouton connexion - deconnection - mon profil */
+.navbar .auth-btn {/*change color qd page*/
+    float: right;
+    color: rgb(20, 19, 19);
+}
+
+.navbar .auth-btn:hover {/*change color qd sourir sur le btn*/ 
+    color: rgb(0, 0, 0);
+    background-color: rgb(135, 175, 241);
+}
+
+/* bouton inscription */
+.navbar .auth-btn-signup-btn {
+    margin-right: 10px;
+    float: right;
+    background-color: #9fc6ee38;
+    color: rgb(20, 19, 19);
+}
+
+.navbar .auth-btn-signup-btn:hover {
+    /* background-color:#6C91C2 ; */
+    /* color: rgb(240, 241, 241); */
+    color: rgb(0, 0, 0);
+   
+}
+
+.button{
+    border-radius: 11px;
+    
+}
+ .button1 {
+    margin-left: 1000px;
+ }
+.texte {
+    color: white;
+    background-color: white;
+}

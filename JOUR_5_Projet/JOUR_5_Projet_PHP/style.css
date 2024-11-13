@@ -1,0 +1,117 @@
+
+body {
+    background-image: url('image/christmas.jpg');
+    background-size: cover;
+    /* color: white; */
+    color: black;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    text-align: center;
+    background-attachment: fixed ;
+
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    
+}
+
+h1 {
+    margin: 10px;
+}
+
+.accueille {
+
+    text-align: center;
+}
+
+.seConnecter {
+
+    /* background-color: green; */
+    background-color: rgba(234, 234, 234, 0.8);
+    /* color: white; */
+    border-radius: 5px;
+    cursor: pointer;
+    /* border: 2px solid #ddd; */
+    border: 5px solid #000000;
+}
+
+.seConnecter:hover {
+
+    color: black;
+    background-color: rgb(135, 175, 241);
+}
+.formulaire {
+
+    justify-content: center;
+    /* position:fixed; */
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 50px 20px 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 90%;
+    max-width: 450px; 
+    border-radius: 10px; 
+    box-shadow: 4px 15px;
+    text-align: center; 
+    -webkit-box-shadow: 5px 5px 15px -4px #000000; 
+    box-shadow: 5px 5px 15px -4px #000000;
+    margin-left: 350px;
+    
+}
+
+/* --------------- */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    /* background-color: #405bf3; */
+    /* color: white; */
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+p {
+    color: red;
+    font-size: 14px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.droite {
+    text-align: right;
+    /* text-align: center; */
+}
+.error {
+
+    color: red;
+}
+p a {
+    text-decoration: none;
+    color: #000000;
+}
+p a:hover {
+color: rgb(57, 100, 169);
+}

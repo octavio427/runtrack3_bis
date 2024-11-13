@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="style.css">
+    <title>Connexion</title>
+    <style>
+        .error-message { color: red; font-size: 0.9em; }
+    </style>
+</head>
+<header>
+    
+    <div class= navbar>
+        <a class= "texte" href="index.html">JOUR 5</a>
+        <div class='button1'>
+            <button class=button> <a href="connexion.html" class="auth-btn">Connexion</a></button>
+            <button class=button> <a href="inscription.html" class="auth-btn signup-btn">Inscription</a></button>
+        </div>
+        
+    </div>
+</header>
+
+<body>
+    
+    <div class='formulaire'></div>
+        <h1>Connexion</h1>
+        <form id="loginForm" method="post" action="">
+            
+            <div class= droite>
+                <p>*champs obligatoires</p>
+            </div>
+
+            <label for="email">Email* :</label>
+            <input type="email" id="email" name="email"style='width: 400px;'>
+            <div id="emailError" class="error-message"></div>
+
+            <label for="password">Mot de passe* :</label>
+            <input type="password" id="password" name="password"style='width: 400px;'>
+            <div id="passwordError" class="error-message"></div>
+
+            <!-- <button type="submit">Se connecter</button> -->
+            <input class='seConnecter'type="submit" value="Se connecter" name="ok" style='width: 440px;'>
+        </form>
+
+        <p>Vous n'avez pas encore de compte ? <a href="inscription.html">Inscription</a></p>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
